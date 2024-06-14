@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias - Erick de Morais Monteiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21bf43e759.js" crossorigin="anonymous"></script>
+    <style>
+        .fab {
+            cursor: pointer; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Erick de Morais Monteiro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="tecnologias.html">Tecnologias</a></li>
+                <li><a href="certificados.html">Certificados</a></li>
+                <li><a href="experiencias.html">Experiências</a></li>
+                <li><a href="contato.html">Contato</a></li>  
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="technologies">
+        <h2>Tecnologias que Estudo e Aplico</h2>
+        <p>Aqui estão algumas das tecnologias que estou estudando e aplicando na prática:</p>
+        <ul>
+            <li><i class="fab fa-python" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> Python</li>
+            <li><i class="fab fa-r-project" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> R</li>
+            <li><i class="fas fa-chart-bar" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> Análise de Dados</li>
+            <li><i class="fas fa-chart-line" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> Power BI</li>
+            <li><i class="fab fa-java" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> Java</li>
+            <li><i class="fab fa-java" onmouseover="highlightIcon(this)" onmouseout="resetIcon(this)"></i> Spring Boot</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Erick de Morais Monteiro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function highlightIcon(icon) {
+            icon.style.transform = 'scale(1.2)'; 
+            icon.style.transition = 'transform 0.3s ease'; 
+        }
+
+        function resetIcon(icon) {
+            icon.style.transform = 'scale(1)';
+        }
+    </script>
+</body>
+</html>
